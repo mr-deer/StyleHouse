@@ -18,10 +18,16 @@ header {
     margin-bottom: 30px;
     background-color: #ffffff;
 }
-
+header nav {
+    padding-left: 75px;
+}
 header nav div {
     line-height: 100px;
     font-size: 14px;
+}
+
+header  nav .column {
+    margin: 0;
 }
 
 header img {
