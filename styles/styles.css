@@ -30,10 +30,36 @@ header img {
     left: 50%;
     margin: -18px 0 0 -87.5px;
 }
-
+header .Line .column {
+    margin: 0 15px;
+}
+.contacts {
+    padding-right: 75px;
+    height: 100px;
+    opacity: 0.5;
+}
 .right {
     float: right !important;
 }
+
+.Line {
+    color: #000000;
+    line-height:50px;
+    height:50px;
+    text-align: center;
+}
+/*
+.phone  {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100px;;
+}
+.address-with-phone {
+    display: table-cell;
+    vertical-align: middle;
+    height:100px;
+}
+*/
 
 .column {
     background-color: #ffffff;
