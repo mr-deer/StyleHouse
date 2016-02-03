@@ -1,5 +1,5 @@
 * {
-    font-family: 'LatoWeb';
+    font-family: 'LatoWeb', serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,16 +20,16 @@ header {
 }
 header nav {
     padding-left: 75px;
+    float: left;
 }
-header nav div {
+header nav a {
+    text-decoration: none;
+    color: #000;
     line-height: 100px;
     font-size: 14px;
+    height:100px;
+    padding:0 30px 0 0;
 }
-
-header  nav .column {
-    margin: 0;
-}
-
 header img {
     position: absolute;
     top: 50%;
@@ -59,7 +59,7 @@ header .Line .column {
 .Line {
     color: #000000;
     line-height: 50px;
-    height: 50px;
+    height: 100px;
     text-align: center;
 }
 
@@ -87,10 +87,11 @@ header .Line .column {
 }
 
 .fixed-height img {
-    margin: 110px 110px 70px;
+    margin-top: 110px
 }
 
-.fixed-height span {
+.fixed-height div {
+    margin-top: 50px;
     font-family: 'LatoWeb';
     font-size: 18px;
 }
