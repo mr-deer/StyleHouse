@@ -17,9 +17,20 @@ header {
 
 .column {
     background-color: #ffffff;
-    height: 100px;
+    height: auto;
 }
 
+.fixed-height {
+    text-align: center;
+    height:300px;
+}
+.fixed-height img {
+    margin: 110px 110px 70px;
+}
+.fixed-height span {
+    font-family: 'LatoWeb';
+    font-size: 18px;
+}
 .text-block {
     text-align: justify;
     line-height: 30px;
