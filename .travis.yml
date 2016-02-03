@@ -1,0 +1,13 @@
+install: true
+script: true
+deploy:
+  provider: s3
+  bucket: stylehouse.mrdeer.net
+  skip_cleanup: true
+  acl: public_read
+  region: eu-central-1
+  on:
+    repo: mr-deer/StyleHouse
+  access_key_id: AKIAIJTJ7NMVXBI3WASQ
+  secret_access_key:
+    secure: gCRFzLahGp3FIWO8y8kva51Qt2oNt5vAjKrLWAbH3Nu5w/kQwytldgllBrubqrbqmc7mgDkXaQOJsiUEzHtBm74Z4RbKUjRZ4hvLt+MJXfjRHbU2GiwQj0BcZLJES9x1Zhq4OfXCrMVuGMJESemYDCTkdKeZmVV1UJ8RIvTso6SdqAujTZaRQJ+NsQGzZ3BettkyKwwrXltKK1cIWDifz6VxLTrzyYtl/hbwPsw6QgUZddEEvC76+p6UtHrpw8lbTFNr34lBqijXuQKV6056kf1kdEGt/hHQvfTJqjpFPIxSZaycIrnC1vXdNuMKjROaVQZ/i/BCS9UgtuTPehWccwrIWK5TFmdsSEXV6h1zGLiSMeRPOJOQ34jitNrXaf2cVIDVS2Q7WNugroXvXpambJJco5cc0dU/hyqAjiXD8NDM4trTQDiZAD0KesxY8M1OcZ3s8bBSKEc68e6wfuSrwsT71TIRd51cf1zj7WXTYyiV6ifNKlwWr0QMozcsMYPJJGErpOCpoVQyUivOE1WTQhSLyoK57hhV4/y3ahOIWMMR3QeU6uLBKTZ4MMfbHI2owHHciDwRKX674e4X0TCbsyyZD3kHa0+oq1jhH5zgEWFflCyRZhiHulcWEIcobd+L9gviSQX6tAvqrGNpo1IJQ2u7pGCwl3QcZNAlXVwrep0=
