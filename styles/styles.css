@@ -30,24 +30,33 @@ header img {
     left: 50%;
     margin: -18px 0 0 -87.5px;
 }
+
 header .Line .column {
     margin: 0 15px;
 }
+
 .contacts {
-    padding-right: 75px;
+
     height: 100px;
     opacity: 0.5;
 }
+
 .right {
+    padding-right: 75px;
     float: right !important;
+}
+
+.center {
+    margin: 0 auto;
 }
 
 .Line {
     color: #000000;
-    line-height:50px;
-    height:50px;
+    line-height: 50px;
+    height: 50px;
     text-align: center;
 }
+
 /*
 .phone  {
     display: table-cell;
@@ -94,10 +103,20 @@ header .Line .column {
 }
 
 footer {
+    padding-top: 60px;
+    font-size: 14px;
     height: 250px;
     width: 100%;
     text-align: center;
-    background-color: white;
-    color: gray;
 
+
+}
+
+footer .contacts {
+    width: 50%;
+    opacity: 0.5;
+}
+
+footer span {
+    margin: 15px;
 }
