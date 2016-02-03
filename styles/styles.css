@@ -1,4 +1,5 @@
 * {
+    font-family: 'LatoWeb';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,10 +10,29 @@ body {
 }
 
 header {
+    font-size: 14px;
+    position: relative;
+    text-align: center;
     width: 100%;
     height: 100px;
     margin-bottom: 30px;
     background-color: #ffffff;
+}
+
+header nav div {
+    line-height: 100px;
+    font-size: 14px;
+}
+
+header img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -18px 0 0 -87.5px;
+}
+
+.right {
+    float: right !important;
 }
 
 .column {
@@ -22,16 +42,20 @@ header {
 
 .fixed-height {
     text-align: center;
-    height:300px;
+    height: 300px;
 }
+
 .fixed-height img {
     margin: 110px 110px 70px;
 }
+
 .fixed-height span {
     font-family: 'LatoWeb';
     font-size: 18px;
 }
+
 .text-block {
+    font-family: 'LatoWeb';
     text-align: justify;
     line-height: 30px;
     height: auto;
@@ -39,9 +63,13 @@ header {
     color: rgba(0, 0, 0, .7);
 }
 
+.text-block h2 {
+    padding-bottom: 30px;
+}
+
 footer {
     height: 250px;
-    width:100%;
+    width: 100%;
     text-align: center;
     background-color: white;
     color: gray;
