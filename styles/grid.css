@@ -1,34 +1,123 @@
-/* --------------------------------------------------
-Container
--------------------------------------------------- */
-div#container, div.container { position: relative; width: 1770px; margin: 0 auto; padding: 0; }
-
 
 /* --------------------------------------------------
 Grid
 -------------------------------------------------- */
-.column-row, .row { margin: 0 0 18px -30px; }
-.column, .columns { float: left; display: inline; margin: 0 0 0 30px; }
+.column-row, .row {
+    margin: 0 0 18px -30px;
+}
+
+/*.column, .columns { float: left; display: inline; margin: 0 0 0 30px; }*/
+.column, .columns {
+    float: left;
+    display: inline;
+    margin: 0 0 0 1.6%;
+}
+
 /*1440*/
 
+.twelve {
+    width: 100%;
+}
 
-/*
-.two {width:16.6666666667%;}
+.eleven {
+    width: 91.53%;
+}
 
-.three {width:25.0%;}
+.ten {
+    width: 83.06%;
+}
 
-.four {   width:33.3333333333%; }
-.five { width:41.6666666667%;}
-.six {width:50.0%;}
-.seven {width:58.3333333333%;}
-.eight {width:66.6666666667%;}
-.nine {width:75.0%;}
-.ten{width:83.3333333333%;}
-.eleven { width:91.6666666667%;}
-.twelve {margin-left:0;
-    width:100%;}*/
+.nine {
+    width: 74.6%;
+}
 
-.one { width: 120px; }
+.eight {
+    width: 66.13%;
+}
+
+.seven {
+    width: 57.66%;
+}
+
+.six {
+    width: 49.2%;
+}
+
+.five {
+    width: 40.73%;
+}
+
+.four {
+    width: 32.26%;
+}
+
+.three {
+    width: 23.8%;
+}
+
+.two {
+    width: 15.33%;
+}
+
+.one {
+    width: 6.866%;
+}
+
+.offset-by-one-half {
+    margin-left: 75px;
+}
+
+.offset-by-one {
+    margin-left: 8.466%;
+}
+
+.offset-by-two {
+    margin-left: 16.932%;
+}
+
+.offset-by-three {
+    margin-left: 25.398%;
+}
+
+.offset-by-four {
+    margin-left: 33.864%;
+}
+
+.offset-by-five {
+    margin-left: 42.33%;
+}
+
+.offset-by-six {
+    margin-left: 50.796%;
+}
+
+.offset-by-seven {
+    margin-left: 59.262%;
+}
+
+.offset-by-eight {
+    margin-left: 67.728%;
+}
+
+.offset-by-nine {
+    margin-left: 76.194%;
+}
+
+.offset-by-ten {
+    margin-left: 84.66%;
+}
+
+@media only screen and (max-width: 480px) {
+    .column {
+        margin: 1% 0 1% 0%;
+    }
+
+    .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+        width: 100%;
+    }
+}
+
+/*.one { width: 120px; }
 .two { width: 270px; }
 .three { width: 420px; }
 .four { width: 570px; }
@@ -39,9 +128,9 @@ Grid
 .nine { width: 1320px; }
 .ten { width: 1470px; }
 .eleven { width: 1620px; }
-.twelve { width: 1770px; }
+.twelve { width: 1770px; }*/
 
-.offset-by-one-half { margin-left: 75px; }
+/*.offset-by-one-half { margin-left: 75px; }
 .offset-by-one { margin-left: 150px; }
 .offset-by-two { margin-left: 300px; }
 .offset-by-three { margin-left: 450px; }
@@ -51,18 +140,50 @@ Grid
 .offset-by-seven { margin-left: 1050px; }
 .offset-by-eight { margin-left: 1200px; }
 .offset-by-nine { margin-left: 1350px; }
-.offset-by-ten { margin-left: 1500px; }
+.offset-by-ten { margin-left: 1500px; }*/
 
 /* Clear the columns automagically, thanks @kneath */
-.column-row:after, .row:after, .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-* html .column-row, * html .row, * html .clearfix { height: 1%; }
-.column-row, .row, .clearfix { display: inline-block; }
-.column-row, .row, .clearfix { display: block; }
+.column-row:after, .row:after, .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+* html .column-row, * html .row, * html .clearfix {
+    height: 1%;
+}
+
+.column-row, .row, .clearfix {
+    display: inline-block;
+}
+
+.column-row, .row, .clearfix {
+    display: block;
+}
 
 /* IE6 Problems ---------- */
-body.ie .column-row { width: 1800px; }
-body.ie .eight .column-row { width: 1200px; }
-body.ie .nine .column-row { width: 1350px; }
-body.ie .ten .column-row { width: 1500px; }
-body.ie .eleven .column-row { width: 1650px; }
-body.ie .two-thirds .column-row { width: 1230px; }
+body.ie .column-row {
+    width: 1800px;
+}
+
+body.ie .eight .column-row {
+    width: 1200px;
+}
+
+body.ie .nine .column-row {
+    width: 1350px;
+}
+
+body.ie .ten .column-row {
+    width: 1500px;
+}
+
+body.ie .eleven .column-row {
+    width: 1650px;
+}
+
+body.ie .two-thirds .column-row {
+    width: 1230px;
+}

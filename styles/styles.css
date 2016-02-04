@@ -105,6 +105,12 @@ header .Line .column {
     color: rgba(0, 0, 0, .7);
 }
 
+.carousel {
+    overflow: hidden;
+}
+.carousel img {
+    width: 100%;
+}
 .text-block h2 {
     padding-bottom: 30px;
 }
