@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>styleHouse</title>
-    <link rel="stylesheet" href="styles/styles.css">
+<!--    <link rel="stylesheet" href="styles/styles.css">-->
     <link rel="stylesheet" href="styles/grid.css">
     <link rel="stylesheet" href="styles/LatoStyles.css">
+    <link rel="stylesheet" href="sass/styles.css">
 </head>
 <body>
 <header>
@@ -13,7 +14,8 @@
         <a href="#">Товары и услуги</a><a href="#">О нас</a><a href="#">Контакты</a><a href="#">Напишите нам</a>
     </nav>
     <div class="contacts right">
-        <div class="Line">Гродно, ул.Пестрака 36Б <br> 8 (029) 698-77-04 8 (029) 698-77-04 8 (029) 698-77-04</div>
+        <div class="Line">Гродно, ул.Пестрака 36Б <br><span>8 (029) 698-77-04</span><span>8 (029) 698-77-04</span><span>8 (029) 698-77-04</span>
+        </div>
         <!--<div class="Line">
             <div class="column one"></div>
             <div class="column one">8 (029) 698-77-04</div>
@@ -21,11 +23,15 @@
         </div>-->
     </div>
     <img src="images/Logo.svg" alt="">
-
 </header>
+<div style="height: 130px" ></div>
 <div class="row">
     <div class="column eight offset-by-two carousel ">
         <img src="images/sharp.jpg" alt="">
+        <div class="dots">
+            <span class="dot"></span><span class="dot active"></span><span class="dot"></span><span
+                class="dot"></span><span class="dot"></span>
+        </div>
     </div>
 </div>
 <div class="row">
@@ -42,21 +48,21 @@
         <div>Сервис</div>
     </div>
     <div class="column two fixed-height">
-        <img src="images/Paint%20Brush-96.png" alt="">
+        <img src="images/Paint Brush-96.png" alt="">
         <div>Декорирование</div>
     </div>
 </div>
 <div class="row">
     <div class="column eight offset-by-two text-block ">
-        <h2>Про нас</h2>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur dignissimos doloremque
+        <div class="title">Про нас</div>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur dignissimos doloremque
             ducimus eos est eum eveniet explicabo facere, iure mollitia necessitatibus non officia perferendis possimus
             ducimus eos est eum eveniet explicabo facere, iure mollitia necessitatibus non officia perferendis possimus
             ducimus eos est eum eveniet explicabo facere, iure mollitia necessitatibus non officia perferendis possimus
             ducimus eos est eum eveniet explicabo facere, iure mollitia necessitatibus non officia perferendis possimus
             ducimus eos est eum eveniet explicabo facere, iure mollitia necessitatibus non officia perferendis possimus
             ducimus eos est eum eveniet explicabo facere, iure mollitia necessitatibus non officia perferendis possimus
-            sequi similique, suscipit temporibus.</h3>
+            sequi similique, suscipit temporibus.</span>
     </div>
 </div>
 <footer>
