@@ -46,6 +46,7 @@ header {
   margin: 0 auto; }
 
 .Line {
+  line-height: 20px;
   color: #000;
   text-align: center; }
   .Line span {
@@ -59,10 +60,10 @@ header {
   text-align: center;
   height: 15.33vw; }
   .fixed-height img {
-    margin-top: calc(50% - 48px);
-    margin-top: -moz-calc(50% -48px);
-    margin-top: -webkit-calc(50% -48px);
-    margin-top: calc(50% -48px); }
+    height: 31%;
+    margin-top: -moz-calc(34.5%);
+    margin-top: -webkit-calc(34.5%);
+    margin-top: calc(34.5%); }
   .fixed-height div {
     margin-top: 11%;
     font-size: 18px; }

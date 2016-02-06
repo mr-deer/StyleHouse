@@ -9,7 +9,6 @@
     -ms-border-radius: $radius
     border-radius: $radius
 
-
 *
   margin: 0
   padding: 0
@@ -60,6 +59,7 @@ header
   margin: 0 auto
 
 .Line
+  line-height: 20px
   color: #000
   text-align: center
   span
@@ -73,8 +73,9 @@ header
   text-align: center
   height: 15.33vw
   img
-    margin-top: calc(50% - 48px)
-    @include calc(margin-top, 50% -48px)
+    $width: 31%
+    height: $width
+    @include calc(margin-top, 50% -$width/2)
   div
     margin-top: 11%
     font-size: 18px
@@ -90,7 +91,7 @@ header
     padding-bottom: 30px
   .title
     font-size: 20px
-    color: rgba(0,0,0,.9)
+    color: rgba(0, 0, 0, .9)
 
 .carousel
   position: relative
@@ -107,10 +108,9 @@ header
       height: 10px
       width: 10px
       @include border-radius(30px)
-      background-color: rgba(255,255,255, .5)
+      background-color: rgba(255, 255, 255, .5)
     .active
       background-color: #ffffff
-
 
 footer
   height: 250px
