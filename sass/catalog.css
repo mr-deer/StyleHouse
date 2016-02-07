@@ -1,0 +1,81 @@
+a {
+  text-decoration: none; }
+
+.menu {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: fixed;
+  z-index: 4;
+  margin-top: 100px;
+  border-top: 1px solid #f3f3f3; }
+  .menu a {
+    display: inline-block;
+    font-family: "LatoWeb", serif;
+    height: 70px;
+    line-height: 70px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    background-position: left;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    margin-right: 54px; }
+  .menu #door-menu {
+    background-image: url("../images/Door%20Opened-96.png"); }
+  .menu #window-menu {
+    background-image: url("../images/Closed%20Window-96.png"); }
+  .menu #service-menu {
+    background-image: url("../images/Hammer-96.png"); }
+  .menu #decor-menu {
+    background-image: url("../images/Paint%20Brush-96.png"); }
+
+.catalog-settings .border {
+  padding: 28px 0 0 28px;
+  border-bottom: 1px solid #f3f3f3; }
+.catalog-settings .title {
+  padding-bottom: 28px;
+  text-transform: uppercase;
+  font-size: 14px; }
+.catalog-settings a {
+  padding-bottom: 23px;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.87); }
+.catalog-settings .checkBox-block {
+  padding: 10px; }
+
+.fixed-width {
+  margin-bottom: 30px;
+  position: relative;
+  width: 270px;
+  min-height: 400px; }
+
+.catalog-content .fixed-width {
+  margin-left: 30px; }
+.catalog-content .product {
+  display: block;
+  width: 120px;
+  height: 220px;
+  margin: 75px auto 0 auto; }
+.catalog-content .sale {
+  position: absolute;
+  top: 12px;
+  left: 27px; }
+.catalog-content .cart {
+  position: absolute;
+  top: 25px;
+  right: 27px; }
+.catalog-content .product-name {
+  text-align: center;
+  font-family: "LatoWebBold";
+  font-size: 14px;
+  line-height: 72px; }
+.catalog-content .product-price {
+  text-align: center;
+  font-family: "LatoWeb";
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7); }
+
+/*# sourceMappingURL=catalog.css.map */
