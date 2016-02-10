@@ -69,16 +69,16 @@ header img {
     height: auto;
 }
 
-.fixed-height {
+.index_categories {
     text-align: center;
     height: 300px;
 }
 
-.fixed-height img {
+.index_categories img {
     margin-top: 110px
 }
 
-.fixed-height div {
+.index_categories div {
     margin-top: 50px;
     font-family: 'LatoWeb';
     font-size: 18px;

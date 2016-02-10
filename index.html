@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>styleHouse</title>
-<!--    <link rel="stylesheet" href="styles/styles.css">-->
+
     <link rel="stylesheet" href="styles/grid.css">
     <link rel="stylesheet" href="styles/LatoStyles.css">
     <link rel="stylesheet" href="sass/styles.css">
+
 </head>
 <body>
+
 <header>
     <nav>
-        <a href="#">Товары и услуги</a><a href="#">О нас</a><a href="#">Контакты</a><a href="#">Напишите нам</a>
+        <a href="#">Товары и услуги</a>
+        <a href="#">О нас</a>
+        <a href="#">Контакты</a>
+        <a href="#">Напишите нам</a>
     </nav>
-    <div class="contacts right">
-        <div class="Line">Гродно, ул.Пестрака 36Б <br><span>8 (029) 698-77-04</span><span>8 (029) 698-77-04</span><span>8 (029) 698-77-04</span>
+
+    <div class="contacts contacts__right">
+        <div class="Line">Гродно, ул.Пестрака 36Б<br>
+            <span>8 (029) 698-77-04</span>
+            <span>8 (029) 698-77-04</span>
+            <span>8 (029) 698-77-04</span>
         </div>
     </div>
     <img src="images/Logo.svg" alt="">
 </header>
-<div style="height: 130px" ></div>
-<div class="row">
+<div style="height: 130px"></div> <!--для смещения блока из-за фикчированного меню-->
+
+<div class="row"> <!--Каруселька-->
     <div class="column eight offset-by-two carousel ">
         <img src="images/sharp.jpg" alt="">
         <div class="dots">
@@ -29,24 +39,26 @@
         </div>
     </div>
 </div>
+
 <div class="row">
-    <div class="column two offset-by-two fixed-height">
+    <div class="column two offset-by-two index_categories">
         <img src="images/Door%20Opened-96.png" alt="">
         <div>Двери</div>
     </div>
-    <div class="column two fixed-height">
+    <div class="column two index_categories">
         <img src="images/Closed%20Window-96.png" alt="">
         <div>Окна</div>
     </div>
-    <div class="column two fixed-height">
+    <div class="column two index_categories">
         <img src="images/Hammer-96.png" alt="">
         <div>Сервис</div>
     </div>
-    <div class="column two fixed-height">
+    <div class="column two index_categories">
         <img src="images/Paint Brush-96.png" alt="">
         <div>Декорирование</div>
     </div>
 </div>
+
 <div class="row">
     <div class="column eight offset-by-two text-block ">
         <div class="title">Про нас</div>
@@ -60,15 +72,21 @@
             sequi similique, suscipit temporibus.</span>
     </div>
 </div>
+
 <footer>
     <div class="Line"><img src="images/Logo.svg" style="opacity: 1"></div>
-    <div class="contacts center">
+    <div class="contacts contacts__center">
         <div class="Line">Гродно, ул.Пестрака 36Б</div>
         <div class="Line">
-            <div><span>8 (029) 698-77-04 8</span><span>8 (029) 698-77-04 8</span><span>8 (029) 698-77-04 8</span></div>
+            <div>
+                <span>8 (029) 698-77-04 8</span>
+                <span>8 (029) 698-77-04 8</span>
+                <span>8 (029) 698-77-04 8</span>
+            </div>
         </div>
     </div>
 </footer>
+
 </body>
 </html>
 

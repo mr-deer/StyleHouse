@@ -52,11 +52,11 @@ header
   height: 38px
   opacity: 0.5
 
-.right
+.contacts__right
   padding-right: 75px
   float: right !important
 
-.center
+.contacts__center
   margin: 0 auto
 
 .Line
@@ -65,12 +65,35 @@ header
   text-align: center
   span
     margin: 0 20px
+/*Карусель*/
+.carousel
+  position: relative
+  overflow: hidden
+  padding: 0
+  height: 380px
+  img
+    width: 100%
+    height: 100%
+  .dots
+    position: absolute
+    bottom: 20px
+    right: 30px
+    .dot
+      display: inline-block
+      margin: 0 7px
+      height: 12px
+      width: 12px
+      @include border-radius(30px)
+      background-color: rgba(255, 255, 255, .5)
+    .active
+      background-color: #ffffff
+/*Конец карусели*/
 
 .column
   background-color: #ffffff
   height: auto
 
-.fixed-height
+.index_categories
   text-align: center
   height: 15.33vw
   img
@@ -95,28 +118,6 @@ header
     font-weight: bold
     font-size: 20px
     color: rgba(0, 0, 0, .9)
-
-.carousel
-  position: relative
-  overflow: hidden
-  padding: 0
-  height: 380px
-  img
-    width: 100%
-    height: 100%
-  .dots
-    position: absolute
-    bottom: 20px
-    right: 30px
-    .dot
-      display: inline-block
-      margin: 0 7px
-      height: 12px
-      width: 12px
-      @include border-radius(30px)
-      background-color: rgba(255, 255, 255, .5)
-    .active
-      background-color: #ffffff
 
 footer
   height: 250px
